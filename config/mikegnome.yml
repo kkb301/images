@@ -1,5 +1,5 @@
 # image will be published to ghcr.io/<user>/<name>
-name: mike
+name: mikegnome-38-1
 # description will be included in the image's metadata
 description: My customised xfce image includes a few packages - mainly VM stuff
 
