@@ -41,7 +41,9 @@ jobs:
         recipe:
           - xfce-38-1.yml
         #  - xfce-39-1.yml
-          - kinoite-39-1.yml
+           - kinoite-39-1.yml
+           - mikexfce.yml
+           - mikegnome.yml
 # !!!
 
     steps:
