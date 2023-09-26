@@ -3,3 +3,4 @@ ublue_variants:
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: mikexfce-38-1
+      - label: xfce-38-1
