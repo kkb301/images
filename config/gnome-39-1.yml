@@ -41,7 +41,9 @@ modules:
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
       - nvtop
       - nautilus
-      - nautilus-extensions
+      - gnome-classic-session
+      - gnome-terminal-nautilus
+      
 
   - type: bling # configure what to pull in from ublue-os/bling
     install:
