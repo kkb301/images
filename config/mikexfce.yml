@@ -39,6 +39,8 @@ modules:
     - lightdm-autologin-greeter
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
+    #- simple-scan
+    #- hplip-gui
       # - micro
       # - starship
     remove:

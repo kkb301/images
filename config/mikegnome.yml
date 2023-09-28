@@ -31,6 +31,8 @@ modules:
     - libadwaita
     - neofetch
     - gparted
+    #- simple-scan
+    #- hplip-gui
       # - micro
       # - starship
     remove:
