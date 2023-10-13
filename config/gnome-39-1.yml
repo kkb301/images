@@ -31,6 +31,7 @@ modules:
     - mint-y-theme
     - wavemon
     - neofetch
+    - nemo
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
