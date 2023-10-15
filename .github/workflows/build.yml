@@ -7,7 +7,7 @@
 name: build-ublue
 on: # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
   schedule:
-    - cron: "30 8 * * *"
+    - cron: "0 8 * * *"
   push:
     branches:
       - live
@@ -41,9 +41,11 @@ jobs:
         recipe:
           - xfce-38-1.yml
         # - xfce-39-1.yml
+          - gnome-38-1.yml
           - gnome-39-1.yml
-          - mikexfce.yml
-          - mikegnome.yml
+          - mikexfce-38-1.yml
+          - mikegnome-38-1.yml
+          - mikegnome-39-1.yml
         # - mikexfce-37.yml
           
 # !!!

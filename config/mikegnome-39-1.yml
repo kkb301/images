@@ -28,6 +28,7 @@ modules:
     - Thunar
     - thunar-media-tags-plugin
     - gnome-boxes
+    - gnome-logs
     - xdotool
     - libadwaita
     - neofetch
