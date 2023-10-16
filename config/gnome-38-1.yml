@@ -36,6 +36,8 @@ modules:
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
+    - gnome-shell-extension-dash-to-panel
+    - gnome-shell-extension-appindicator
     
       
     remove:
@@ -45,6 +47,12 @@ modules:
       - nautilus
       - gnome-classic-session
       - gnome-terminal-nautilus
+      - gnome-shell-extension-apps-menu
+      - gnome-shell-extension-background-logo
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-window-list
+      
       
 
   - type: bling # configure what to pull in from ublue-os/bling
