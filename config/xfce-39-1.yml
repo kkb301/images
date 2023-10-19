@@ -39,6 +39,7 @@ modules:
     - xfce4-weather-plugin
     - lightdm-autologin-greeter
     - lightdm-gtk-greeter-settings
+    - thunar-media-tags-plugin
       # - micro
       # - starship
     remove:
