@@ -1,11 +1,11 @@
 # image will be published to ghcr.io/<user>/<name>
-name: gnome-38-1
+name: onyx-39-1
 # description will be included in the image's metadata
 description: My customised silverblue image includes a few packages - mainly VM stuff
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 38 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/ublue-os/onyx-main
+image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -26,32 +26,23 @@ modules:
     install:
     - virt-manager
     - virt-viewer
-    - gnome-logs
+    #- gnome-logs
     - gparted
     - mint-y-icons
     - mint-y-theme
-    - wavemon
+    #- wavemon
     - neofetch
-    - nemo
     - nemo-fileroller
     - nemo-image-converter
     - nemo-audio-tab
-    - gnome-shell-extension-dash-to-panel
-    - gnome-shell-extension-appindicator
+    
     
       
     remove:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
-      - nvtop
-      - nautilus
-      - gnome-classic-session
-      - gnome-terminal-nautilus
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
+      #- nvtop
+      
       
       
 
