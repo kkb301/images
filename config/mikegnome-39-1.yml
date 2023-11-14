@@ -36,10 +36,10 @@ modules:
     - simple-scan
     - hplip-gui
     - xinput
-    #- simple-scan
-    #- hplip-gui
-      # - micro
-      # - starship
+    #- f36-backgrounds-gnome 
+    #- f37-backgrounds-gnome
+    #- f38-backgrounds-gnome 
+    #- f39-backgrounds-extras-gnome
     remove:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
@@ -50,8 +50,8 @@ modules:
       - fonts # selection of common good free fonts
       - justfiles # add "!include /usr/share/ublue-os/just/bling.just"
                   # in your custom.just (added by default) or local justfile
-      #- nix-installer # shell shortcuts for determinate system's nix installers
-      - ublue-os-wallpapers
+      # - nix-installer # shell shortcuts for determinate system's nix installers
+      # - ublue-os-wallpapers
       # - ublue-update # https://github.com/ublue-os/ublue-update
       # - dconf-update-service # a service unit that updates the dconf db on boot
       # - devpod # https://devpod.sh/ as an rpm
