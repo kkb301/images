@@ -24,17 +24,18 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-    - virt-manager
-    - virt-viewer
-    #- gnome-logs
-    - gparted
-    - mint-y-icons
-    - mint-y-theme
-    #- wavemon
+    - backintime-qt
+    - Thunar
+    - thunar-media-tags-plugin
+    - gnome-boxes
+    - gnome-logs
+    - xdotool
+    - libadwaita
     - neofetch
-    - nemo-fileroller
-    - nemo-image-converter
-    - nemo-audio-tab
+    - gparted
+    - simple-scan
+    - hplip-gui
+    - xinput
     
     
       
