@@ -36,10 +36,10 @@ modules:
     - simple-scan
     - hplip-gui
     - xinput
-    #- f36-backgrounds-gnome 
-    #- f37-backgrounds-gnome
-    #- f38-backgrounds-gnome 
-    #- f39-backgrounds-extras-gnome
+    - f36-backgrounds-gnome 
+    - f37-backgrounds-gnome
+    - f38-backgrounds-gnome 
+    - f39-backgrounds-extras-gnome
     remove:
       #- firefox # default firefox removed in favor of flatpak
       #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
