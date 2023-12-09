@@ -41,7 +41,7 @@ jobs:
         recipe:
         # - xfce-38-1.yml
           - xfce-39-1.yml
-          - onyx-39-1.yml
+        #  - onyx-39-1.yml
           - gnome-39-1.yml
         #  - mikexfce-38-1.yml
         #  - mikegnome-38-1.yml

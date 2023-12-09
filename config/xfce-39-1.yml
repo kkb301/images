@@ -41,6 +41,7 @@ modules:
     - lightdm-autologin-greeter
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
+    - keepassxc
      # - mullvad-vpn
       # - micro
       # - starship
