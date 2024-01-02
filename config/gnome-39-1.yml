@@ -53,6 +53,8 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
+      - gnome-software-rpm-ostree
+      - gnome-software
       
 
   - type: bling # configure what to pull in from ublue-os/bling
