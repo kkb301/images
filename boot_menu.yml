@@ -4,3 +4,4 @@ ublue_variants:
     flavors:
       - label: mikegnome-39-1
       - label: xfce-39-1
+      - label: gnome-39-1
