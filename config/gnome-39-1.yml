@@ -38,6 +38,7 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - keepassxc
+    - gnome-shell-extension-appindicator
     #- mullvad-vpn
    
       
