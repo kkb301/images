@@ -27,7 +27,7 @@ modules:
     install:
     - virt-manager
     - virt-viewer
-    - gnome-logs
+    - backintime-qt
     - gparted
     - mint-y-icons
     - mint-y-theme
@@ -38,7 +38,7 @@ modules:
     - nemo-image-converter
     - nemo-audio-tab
     - keepassxc
-    - gnome-shell-extension-appindicator
+    #- gnome-shell-extension-appindicator
     #- mullvad-vpn
    
       
