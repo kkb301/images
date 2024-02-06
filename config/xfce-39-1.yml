@@ -27,6 +27,8 @@ modules:
     install:
     - virt-manager
     - virt-viewer
+    - keepassxc
+    - backintime-qt
     - gparted
     - gnome-disk-utility
     - gnome-terminal
@@ -37,11 +39,10 @@ modules:
     - xfce4-docklike-plugin
     - xfce4-genmon-plugin
     - xfce4-whiskermenu-plugin
-    - xfce4-weather-plugin
     - lightdm-autologin-greeter
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
-    - keepassxc
+    
     #- mullvad-vpn
       # - micro
       # - starship
