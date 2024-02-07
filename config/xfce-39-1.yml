@@ -29,7 +29,7 @@ modules:
     - virt-viewer
     - keepassxc
     - backintime-qt
-    - gparted
+    # - gparted
     - gnome-disk-utility
     - gnome-terminal
     - gnome-logs
