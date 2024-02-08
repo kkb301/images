@@ -28,7 +28,7 @@ modules:
     - virt-manager
     - virt-viewer
     - keepassxc
-    - backintime-qt
+    # - backintime-qt
     # - gparted
     - gnome-disk-utility
     - gnome-terminal
