@@ -32,7 +32,7 @@ modules:
     # - gparted
     - gnome-disk-utility
     - gnome-terminal
-    - gnome-logs
+    # - gnome-logs
     - xdotool
     - wavemon
     - neofetch
@@ -42,7 +42,7 @@ modules:
     - lightdm-autologin-greeter
     - lightdm-gtk-greeter-settings
     - thunar-media-tags-plugin
-    
+    - firewall-config
     #- mullvad-vpn
       # - micro
       # - starship
