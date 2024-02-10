@@ -27,7 +27,7 @@ modules:
     install:
     - virt-manager
     - virt-viewer
-    - backintime-qt
+    #- backintime-qt
     - gparted
     - mint-y-icons
     - mint-y-theme
@@ -49,11 +49,11 @@ modules:
       - nautilus
       - gnome-classic-session
       - gnome-terminal-nautilus
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
+      #- gnome-shell-extension-apps-menu
+      #- gnome-shell-extension-background-logo
+      #- gnome-shell-extension-launch-new-instance
+      #- gnome-shell-extension-places-menu
+      #- gnome-shell-extension-window-list
       - gnome-software-rpm-ostree
       - gnome-software
       
