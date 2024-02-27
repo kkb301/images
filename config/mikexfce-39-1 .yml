@@ -1,0 +1,59 @@
+# image will be published to ghcr.io/<user>/<name>
+name: mikexfce-39-1
+# description will be included in the image's metadata
+description: My customised xfce image includes a few packages - mainly VM stuff
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/vauxite-main
+image-version: 39 # latest is also supported if you want new updates ASAP
+
+# module configuration, executed in order
+# you can include multiple instances of the same module
+modules:
+  - type: files
+    files:
+      - usr: /usr # copy static configurations
+                  #
+                  # copies config/files/usr into your image's /usr
+                  #
+                  # configuration you wish to end up in /etc/ on the booted system
+                  # should be added into /usr/etc/ as that is the proper "distro"
+                  # config directory on ostree. Read more in the files module's README
+
+  - type: rpm-ostree
+    repos:
+      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+    - backintime-qt
+    - gnome-disk-utility
+    - gnome-boxes
+    - gnome-logs
+    - xfce4-docklike-plugin
+    - xfce4-genmon-plugin
+    - xfce4-whiskermenu-plugin
+    - lightdm-autologin-greeter
+    - lightdm-gtk-greeter-settings
+    - thunar-media-tags-plugin
+    - firewall-config
+    - xdotool
+    - libadwaita
+    - neofetch
+    - gparted
+    - simple-scan
+    - hplip-gui
+    - xinput
+    - f36-backgrounds-gnome 
+    - f37-backgrounds-gnome
+    - f38-backgrounds-gnome 
+    - f39-backgrounds-extras-gnome
+    remove:
+      #- firefox # default firefox removed in favor of flatpak
+      #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+      - nvtop
+
+  
+
+  - type: script
+    scripts:
+      # this sets up the proper policy & signing files for signed images to work
+      - signing.sh
