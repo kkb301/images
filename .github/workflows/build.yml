@@ -46,7 +46,7 @@ jobs:
         # - mikexfce-38-1.yml
         # - mikegnome-38-1.yml
           - mikegnome-39-1.yml
-          - mikexfce-39.yml
+          - mikexfce-39-1.yml
           - kinoite-39-1.yml
           
 # !!!
