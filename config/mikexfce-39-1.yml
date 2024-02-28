@@ -42,6 +42,7 @@ modules:
     - simple-scan
     - hplip-gui
     - xinput
+    - plank
     - f36-backgrounds-gnome 
     - f37-backgrounds-gnome
     - f38-backgrounds-gnome 
