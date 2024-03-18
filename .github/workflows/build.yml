@@ -39,15 +39,17 @@ jobs:
         # Add recipes for all the images you want to build here.
         # Don't add module configuration files, you will get errors.
         recipe:
-        # - xfce-38-1.yml
           - xfce-39-1.yml
+          - xfce-40-1.yml
         # - onyx-39-1.yml
           - gnome-39-1.yml
+          - gnome-40-1.yml
         # - mikexfce-38-1.yml
         # - mikegnome-38-1.yml
           - mikegnome-39-1.yml
-          - mikexfce-39-1.yml
-          - kinoite-39-1.yml
+          - mikegnome-40-1.yml
+        #  - mikexfce-39-1.yml
+        #  - kinoite-39-1.yml
           
 # !!!!
 
